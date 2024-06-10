@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../assets/coffee-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
+  line-height: 1.3;
+  max-height: 100vh;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10%;
+  background-color: #00000048;
+  backdrop-filter: blur(9px);
+  color: #d8d8d8;
+  box-shadow: 1px 1px 15px #e8e8e848;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+#navlist {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+#navbrand {
+  font-size: 3rem;
+  cursor: default;
+}
+.navitem {
+}
+.navlink {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4rem;
+}
+.navlink:hover {
+  text-decoration: underline;
+}
+main {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* HERO */
+section {
+  min-height: 100vh;
+}
+section article {
+  max-width: 1500px;
+  margin: 5rem auto;
+}
+#hero {
+  display: flex;
+  align-items: center;
+}
+#hero article h1 {
+  font-size: 5rem;
+}
+h1 + span {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+#hero article {
+  display: flex;
+  gap: 2px;
+  position: relative;
+}
+.herocontent {
+  max-width: 60%;
+}
+.reachus {
+  display: flex;
+  width: 40%;
+  color: white;
+  margin: 1rem 5%;
+}
+.reachus .container {
+  height: fit-content;
+  width: 100%;
+  background-color: #00000048;
+  backdrop-filter: blur(7px);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px #a8a8a856;
+}
+.container > h2 {
+  font-weight: normal;
+  font-size: 2rem;
+}
+.container > h5 {
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+.reachus ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.reachus ul > li {
+  margin: 2rem 0;
+}
+.reachus ul i {
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+
+#about {
+  display: flex;
+  background-color: #260b01;
+  padding: 4rem 0;
+  color: white;
+}
+#about h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin: 1rem 0 3rem;
+  text-align: center;
+}
+#about .container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#about .container .left {
+  width: 50%;
+  line-height: 2;
+  position: relative;
+}
+#about .container .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#about .container .right .img {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#visit {
+  background-color: #b08366;
+  color: #000;
+}
+#visit article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
