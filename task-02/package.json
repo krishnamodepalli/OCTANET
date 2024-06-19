@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A simple todo app with js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "todo",
+    "js"
+  ],
+  "author": "Krishna Modepalli",
+  "license": "ISC"
+}
